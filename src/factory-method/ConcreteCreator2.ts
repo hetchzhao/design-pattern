@@ -1,9 +1,9 @@
 import Creator from "./Creator";
-import Product from "./Product";
+import IProduct from "./IProduct";
 import ConcreteProduct2 from "./ConcreteProduct2";
 
 export default class ConcreteCreator2 extends Creator {
-  public factoryMethod(): Product {
+  public factoryMethod(): IProduct {
     return new ConcreteProduct2();
   }
 }
