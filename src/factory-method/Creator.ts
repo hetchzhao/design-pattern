@@ -1,7 +1,7 @@
-import Product from "./Product";
+import IProduct from "./IProduct";
 
 export default abstract class Creator {
-  public abstract factoryMethod(): Product;
+  public abstract factoryMethod(): IProduct;
 
   public someOperation(): string {
     const product = this.factoryMethod();
