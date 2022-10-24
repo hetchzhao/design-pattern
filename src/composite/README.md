@@ -4,7 +4,7 @@
 
 ## 结构
 
-![类图](./class-design.png)
+![类图](https://github.com/hetchzhao/design-pattern/tree/master/src/composite/class-design.png)
 
 1. **组件** (Component)接口描述了树中简单项目和复杂项目所 共有的操作。
 2. **叶节点** (Leaf)是树的基本结构，它不包含子项目。
