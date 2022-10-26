@@ -4,7 +4,7 @@
 
 ## 结构
 
-![类图-facade](https://raw.githubusercontent.com/hetchzhao/design-pattern/master/src/composite/class-design.png/类图-facade.png)
+![类图-facade](https://github.com/hetchzhao/design-pattern/blob/master/src/facade/class_facade.png)
 
 - **外观(Facade)**：提供了一种访问特定子系统功能的便捷方式，其了解如何重定向客户端请求， 知晓如何操作一切活动部件。
 - **创建附加外观(Additional Facade)**：可以避免多种不相关的功能污染单一外观， 使其变成又一个复杂结构。 客户端和其他外观都可使用附加外观。
